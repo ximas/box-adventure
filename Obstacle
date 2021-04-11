@@ -1,0 +1,16 @@
+class obstacle(x,y,l,h):
+    def __init__(x,y,l,h):
+        self.x=x
+        self.y=y
+        self.l=l
+        self.h=h
+        limits(x,y,l,h)
+    def limits(x,y,l,h):
+        lx=x
+        ly=600
+        ll=x+l
+        lh=ly-h
+        return [lx,ly,ll,lh]
+#creats the obstacle limits you specify--------
+        
+        
